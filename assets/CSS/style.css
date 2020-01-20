@@ -6,16 +6,30 @@
     font-size: 400%;
     margin-left: 33vw;
 }
+#nav{
+    font-size: 140%;
+}
 #echiquier{
     margin-top: 1vw;
 }
 #chessboard{
     width: 40%;
     float: right;
+    margin-top:4vw ;
 }
-.expli{
-    font-size: 130%;
+#imp{
+    color:rgb(204, 28, 28);
 }
 .move{
-    font-size: 160%;
+    font-size: 140%;
+}
+#foot{
+    text-align: center;
+    font-size: 110%;
+}
+#lien{
+    padding-bottom: 4vw;
+}
+hr{
+    border:1px black solid ;
 }
