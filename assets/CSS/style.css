@@ -1,0 +1,21 @@
+#pieces{
+    margin-left: 25vw;
+}
+#titre{
+    font-family: 'Caveat', cursive;
+    font-size: 400%;
+    margin-left: 33vw;
+}
+#echiquier{
+    margin-top: 1vw;
+}
+#chessboard{
+    width: 40%;
+    float: right;
+}
+.expli{
+    font-size: 130%;
+}
+.move{
+    font-size: 160%;
+}
