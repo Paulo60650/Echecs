@@ -8,6 +8,7 @@
 }
 #nav{
     font-size: 140%;
+    background-color: rgb(56, 46, 46);
 }
 #echiquier{
     margin-top: 1vw;
@@ -16,9 +17,6 @@
     width: 40%;
     float: right;
     margin-top:4vw ;
-}
-#imp{
-    color:rgb(204, 28, 28);
 }
 .move{
     font-size: 140%;
@@ -32,4 +30,25 @@
 }
 hr{
     border:1px black solid ;
+}
+#collien{
+    color: blanchedalmond;
+}
+#collien2{
+    color: blanchedalmond;
+}
+#collien3{
+    color: blanchedalmond;
+}
+#collien4{
+    color: blanchedalmond;
+}
+#collien5{
+    color: blanchedalmond;
+}
+#Mat{
+    margin-left: 5vw;
+}
+.cita{
+    color: brown;
 }

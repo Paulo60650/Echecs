@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Les Echecs</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="ous">
     <link rel="stylesheet" href="assets/CSS/style.css">
     <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
 </head>
@@ -13,37 +13,66 @@
     <header class="row">
       <a href="index.html"><img src="assets\img\pieces.jpg" id="pieces" alt="Logo" height="auto" width="40%"  title="Retour accueil"></a>
     <h1 id="titre">Les Echecs</h1>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark col-12" id="nav">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Accueil<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="historique.html">Historique<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="phase.html">Phases d'une partie<span class="sr-only">(current)</span></a>
-           </li>
-            <li class="nav-item">
-               <a class="nav-link" href="regle.html">Règles<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link" href="#"> Anecdotes et citations<span class="sr-only">(current)</span></a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+    <ul class="nav justify-content-center col-12" id="nav">
+      <li class="nav-item">
+        <a class="nav-link active" href="index.html" id="collien">Acceuil</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="historique.html" id="collien2">Historique</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="phase.html" id="collien3">Phases d'une partie</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="regle.html" id="collien4" >Règles</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#" id="collien5">Citations</a>
+      </li>
+    </ul>
     </header>
+    <div>
+      <br>
+      <h2>Citations</h2><br>
+      <p>« Pour me battre, il faut me battre trois fois : une fois dans l'ouverture, une fois dans le milieu de jeu, et une fois en finale. »
+       <br> <a href="" class="cita">Alexandre Alekhine</a></p>
+       <p>« Cavalier au bord, cavalier mort. »
+        <br> <a href="" class="cita">Anonyme</a></p>
+        <p>« Les ouvertures vous apprennent les ouvertures, les finales vous apprennent les échecs. »
+         <br> <a href="" class="cita">Anonyme</a></p>
+         <p>« Quand on devient fort, l'important n'est plus de trouver les règles des positions, mais les exceptions. »
+         <br> <a href="" class="cita">Anonyme</a></p>
+         <p>« Perdre une partie d'échecs contre un ordinateur, c'est comme avoir des trous dans ses chaussettes : ce n'est pas gênant tant qu'on est le seul à le savoir. »
+         <br> <a href="" class="cita">Anonyme</a></p>
+         <p>« Le thème de l'attaque double intervient d'une manière ou d'une autre dans l'immense majorité des combinaisons. »
+         <br> <a href="" class="cita">Youri Averbakh</a></p>
+         <p>« Je gagne avec les blancs car j'ai l'avantage de commencer, et je gagne avec les noirs car je m'appelle Bogolioubov. »
+         <br> <a href="" class="cita">Efim Bogolioubov</a></p>
+         <p>« Plusieurs personnes se sont demandées comment Tal faisait pour gagner… En fait, c'est très simple ! Il met ses pièces au centre de l'échiquier et les sacrifie quelque part ! »
+         <br> <a href="" class="cita">David Bronstein</a></p>
+         <p>« - Quelle différence y a-t-il entre les échecs avec confrontation directe et les échecs par correspondance ? »
+         <br> <a href="" class="cita">Gérald Grand </a><br>
+         « - Est-ce que vous faites l'amour par correspondance ? »
+         <br><a href="" class="cita">David Bronstein</a> </p>
+         <p>« Lorsque le joueur le plus fort a le fou, alors c'est le fou qui est le meilleur ; lorsqu'il a le cavalier, alors c'est le cavalier qui est supérieur. »
+         <br> <a href="" class="cita">Jose Raul Capablanca</a></p>
+         <p>« Le roi est une pièce forte. Utilisez-le. »
+         <br> <a href="" class="cita">Reuben Fine</a></p>
+         <p>« - De quoi parliez-vous avec Monsieur Spassky ? »
+         <br> <a href="" class="cita">Un journaliste</a><br>
+         « - Quand j'arrive, je lui dis bonjour ; quand je pars, je lui dis échec et mat. »
+        <br> <a href="" class="cita">Robert Fisher</a></p>
+        <p>« Il vaut toujours mieux jouer un plan faux de façon logique que de n'avoir pas de plan du tout. »
+        <br> <a href="" class="cita">Viktor Kortchnoï</a></p>
+        <p>« Les échecs mettent en conflit, non pas deux intelligences, mais deux volontés. »
+        <br> <a href="" class="cita">Emmanuel Lasker</a></p><br>
+    </div>
     <footer id="foot">
       <hr>
-      <a href="https://lichess.org/" id="lien">Liens pour jouer aux echecs sur lichess</a>
+      <a href="https://lichess.org/" target="_blank" id="lien">Liens pour jouer aux echecs sur lichess</a>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="ous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="ous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="ous"></script>
 </body>
 </html>

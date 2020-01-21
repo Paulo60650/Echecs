@@ -12,67 +12,60 @@
 <body class="container">
     <!-- Début du header -->
     <header class="row">
-    <a href="#"><img src="assets\img\pieces.jpg" id="pieces" alt="Logo" height="auto" width="40%"  title="Retour accueil"></a>
+    <img src="assets\img\pieces.jpg" id="pieces" alt="Logo" height="auto" width="40%">
     <h1 id="titre">Les Echecs</h1>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark col-12" id="nav">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="historique.html">Historique<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="phase.html">Phases d'une partie<span class="sr-only">(current)</span></a>
-           </li>
-            <li class="nav-item">
-               <a class="nav-link" href="regle.html">Règles<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link" href="citation.html"> Anecdotes et citations<span class="sr-only">(current)</span></a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+    <ul class="nav justify-content-center col-12" id="nav">
+      <li class="nav-item">
+        <a class="nav-link active" href="#" id="collien">Acceuil</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="historique.html" id="collien2">Historique</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="phase.html" id="collien3">Phases d'une partie</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="regle.html" id="collien4" >Règles</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="citation.html" id="collien5">Citations</a>
+      </li>
+    </ul>
     </header>
     <div>
-        <img src="assets\img\echiquier.jpg" id="chessboard" alt="">
+        <img src="assets\img\echiquier.png" id="chessboard" alt="">
         <br><h2 id="echiquier">Introduction aux échecs</h2><br>
         <p>Voici la disposition type d'un échiquier. Vous pouvez remarquer que les lignes sont notées de 1 à 8 et les colonnes de A à Z , cela afin de pouvoir se repérer sur l'échiquier.</p>
         <p>Aux échecs ce sont les blancs qui on l'avantage du trait , ce qui signifie qu'ils jouent le premier coup . Ce qui est non négligeable , car le taux de victoire des blancs est supérieur à celui des noirs. </p>
         <p>Ce n'est d'ailleurs pas pour rien que les ouvertures jouées par les blancs commencent par la dénomination attaque tandis que celles des noirs commencent par défense. Nous reviendrons sur ce qu'est une ouverture un peu plus tard.</p>
         <p>Ceci étant dit , il est temps de voir comment se déplace chaque pièce.</p>
-        <h2 id="echiquier">Déplacement des pièces</h2><br>
+        <h2 id="echiquier">Déplacement et valeur des pièces</h2><br>
     </div>
     <div>
-        <h5 id="imp">Chaque pièce a une valeur qui lui est attribue , cela afin de faciliter la comprehension d'une position ainsi que l'analyse des ordinateurs. </h3>
-        <a href="https://lichess.org/editor/4k3/6p1/8/8/8/8/7P/4K3_w_-_-_0_1" class="move">Le pion</a><br>
+        <p>Chaque pièce à une valeur qui lui est attribuée , cela afin de faciliter la compréhension d'une position ainsi que l'analyse des ordinateurs. </p>
+        <a href="https://lichess.org/analysis/4k3/6p1/8/8/8/8/7P/4K3_w_-_-_0_1" class="move">Le pion</a><br>
         <p>Le pions vaut 1 point. Les pions peuvent se déplacer d'une ou deux cases vers l'avant depuis leurs cases initiales. Ensuite ils ne peuvent avancer que d'une case et capturent les pièces d'une case en diagonale. Il y a aussi le cas particulier de la prise en passant.</p>
-        <p>Celui-ci se produit lorsque un pion avance de deux case depuis sa case initiale et arrive a coté d'un autre pion, ce dernier a le droit de le "prendre en passant", ce qui signifie le capturer comme s'il se trouvait en position de le faire normalement.</p>
+        <p>Celui-ci se produit lorsque un pion avance de deux case depuis sa case initiale et arrive à coté d'un autre pion, ce dernier à le droit de le "prendre en passant", ce qui signifie le capturer comme s'il se trouvait en position de le faire normalement.</p>
         <p>Enfin, si un pion arrive au bout de l'échiquier il se promeut en la pièce voulut par le joueur.</p>
-        <a href="https://lichess.org/editor/4k3/8/8/3b4/3B4/8/8/4K3_w_-_-_0_1" class="move">Le fou</a><br>
-        <p>Le fou vaut 3 points et est une pièce dite mineur car il est impossible de gagner une partie avec un fou et un roi contre un roi seul. Les fous ont tous les deux une couleur de case en debut de parie et ne peuvent jamais en changer. Il se deplace en diagonale d'autant de cases qu'il est possible tant qu'il n'y a pas d'obstacle sur son chemin et cela vers l'avant ou l'arriere.</p>
-        <p>Il faut egalement noter qu'un fou controle plus de cases losqu'il est au centre de l'échiquier. Avoir la "paire de fous" est un grand avantage quand le jeu s'ouvre car les diagonales font de meme.</p>
-        <a href="https://lichess.org/editor/4k3/8/8/8/4N3/8/8/4K3_w_-_-_0_1" class="move">Le cavalier</a><br>
-        <p>Le cavalier vaut 3 points et est comme le fou une pièce dite mineur car il est impossible de gagner une partie avec un cavalier et un roi contre un roi seul. Il se deplace d'une case vers le cote et de trois vers l'avant ou l'arriere.</p>
-        <p>Il faut egalement noter qu'un cavalier controle plus de cases losqu'il est au centre de échiquier. Le cavalier aime avoir un avant poste dans le camp adverse et est plus utile quand le jeu est ferme car il est capable de sauter par dessus les autres pièces.</p>
-        <a href="https://lichess.org/editor/3k4/7R/3K4/8/8/8/8/8_w_-_-_0_1" class="move">La tour</a><br>
-        <p>La tour vaut 5 points et est une pièce dite majeur car une tour et un roi peuvent "mater" le roi adverse. La tour se deplace en ligne ou en colonne d'autant de cases qu'il est possible tant qu'il n'y a pas d'obstacle sur son chemin et cela vers l'avant ou l'arriere.</p>
-        <p>Il faut egalement noter qu'une tour controle plus de cases losqu'elle est au centre de échiquier.</p>
-        <a href="https://lichess.org/editor/4k3/8/8/3Q4/8/8/8/4K3_w_-_-_0_1" class="move">La reine</a><br>
-        <p>La reine vaut 9 points et elle est bien evidemment la pièce la plus puissante de l'échiquier. Elle est l'alliance d'un fou et d'une tour au niveau des deplacements, capable de se mouvoir autant en diagonale qu'en ligne ou colonne.</p>
-        <p>Tout comme les autres pièces la reine controle plus de cases lorsqu'elle est au centre de l'échiquier.</p>
-        <a href="https://lichess.org/editor/4k3/8/8/8/8/8/8/4K3_w_-_-_0_1" class="move">Le roi</a><br>
-        <p>Enfin, le roi lui n'a aucune valeur car s'il est en position d'etre capturer sans que le joueur ne puisse le sauver la partie est termine. Il se deplace d'une case dans toutes les directions, seulement si la case visee n'est pas attaquee par une pièces adverse.</p>
-        <p>Notons que le roi a le droit de capturer des pièces si ces dernieres ne sont pas protegees par d'autres pièces.</p>
+        <a href="https://lichess.org/analysis/4k3/8/8/3b4/3B4/8/8/4K3_w_-_-_0_1" class="move">Le fou</a><br>
+        <p>Le fou vaut 3 points et est une pièce dite mineur car il est impossible de gagner une partie avec un fou et un roi contre un roi seul. Les fous ont tous les deux une couleur de case en début de partie et ne peuvent jamais en changer. Le fou se déplace en diagonale d'autant de cases qu'il est possible tant qu'il n'y a pas d'obstacle sur son chemin et cela vers l'avant ou l'arrière.</p>
+        <p>Il faut également noter qu'un fou contrôle plus de cases losqu'il est au centre de l'échiquier. Avoir la "paire de fous" est un grand avantage quand le jeu s'ouvre car les diagonales font de même.</p>
+        <a href="https://lichess.org/analysis/4k3/8/8/8/4N3/8/7P/4K3_w_-_-_0_1" class="move">Le cavalier</a><br>
+        <p>Le cavalier vaut 3 points et est comme le fou une pièce dite mineur car il est impossible de gagner une partie avec un cavalier et un roi contre un roi seul. Il se déplace d'une case vers le côté et de trois vers l'avant ou l'arrière. Visualisez un "L" comme déplacement type, cela pourra vous aider.</p>
+        <p>Il faut également noter qu'un cavalier contrôle plus de cases lorsqu'il est au centre de l'échiquier. Le cavalier aime avoir un avant poste dans le camp adverse et est plus utile qu'un fou quand le jeu est fermé car il est capable de sauter par dessus les autres pièces.</p>
+        <a href="https://lichess.org/analysis/3k4/7R/3K4/8/8/8/8/8_w_-_-_0_1" class="move">La tour</a><br>
+        <p>La tour vaut 5 points et est une pièce dite majeur car une tour et un roi peuvent "mater" le roi adverse. La tour se déplace en ligne ou en colonne d'autant de cases qu'il est possible tant qu'il n'y a pas d'obstacle sur son chemin et cela vers l'avant ou l'arrière.</p>
+        <p>Il faut également noter qu'une tour contrôle plus de cases losqu'elle est au centre de l'échiquier. Bien souvent 2 tours sont plus forte que la reine lorsqu'il n'y a plus beaucoup de matériel sur l'échiquier.</p>
+        <a href="https://lichess.org/analysis/4k3/8/8/3Q4/8/8/8/4K3_w_-_-_0_1" class="move">La reine</a><br>
+        <p>La reine vaut 9 points et elle est bien évidemment la pièce la plus puissante de l'échiquier. Elle est l'alliance d'un fou et d'une tour au niveau des déplacements, capable de se mouvoir autant en diagonale qu'en ligne ou colonne.</p>
+        <p>Tout comme les autres pièces la reine contrôle plus de cases lorsqu'elle est au centre de l'échiquier.</p>
+        <a href="https://lichess.org/analysis/4k3/8/8/8/8/8/7P/4K3_w_-_-_0_1" class="move">Le roi</a><br>
+        <p>Enfin, le roi lui n'a aucune valeur bien qu'étant au final la pièce la plus importante car s'il est en position d'être capturé sans que le joueur ne puisse le sauver la partie est terminée. Il se déplace d'une case dans toutes les directions, seulement si la case visée n'est pas attaquée par une pièce adverse.</p>
+        <p>Notons que le roi à le droit de capturer des pièces si ces dernières ne sont pas protégées par d'autres pièces.</p>
     </div>
     <footer id="foot">
       <hr>
-      <a href="https://lichess.org/" id="lien">Liens pour jouer aux echecs sur lichess</a>
+      <a href="https://lichess.org/" target="_blank" id="lien">Liens pour jouer aux echecs sur lichess</a>
     </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
