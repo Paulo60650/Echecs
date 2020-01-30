@@ -52,3 +52,25 @@ hr{
 .cita{
     color: brown;
 }
+#fischer{
+    width: 21vw;
+    height: 21vw;
+    float: right;
+    margin-top: 3vw;
+   margin-left: 5vw;
+}
+#random{
+    margin-top: 1vw;
+}
+#janus{
+    float: right;
+    width: 21vw;
+    height: 19vw;
+    margin-top: 2vw;
+}
+#echec3{
+    float: right;
+    width: 22vw;
+    height: 21vw;
+    margin-top: 3vw;
+}
